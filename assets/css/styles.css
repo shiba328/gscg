@@ -30,6 +30,10 @@ img {
   max-height: 1123px;
   padding: var(--padding-l);
 }
+.worked {
+  background: #eee;
+  opacity: 0.3;
+}
 .layout {
   display: flex;
   flex-wrap: wrap;
@@ -37,6 +41,14 @@ img {
 }
 .flex {
   width: 48%;
+}
+@media screen and (max-width: 480px) {
+  .layout.main {
+    flex-direction: column;
+  }
+  .flex {
+    width: 100%;
+  }
 }
 .first {
   width: 30%;
