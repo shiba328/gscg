@@ -39,6 +39,9 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.layout.main {
+  margin-bottom: var(--padding-l);
+}
 .flex {
   width: 48%;
 }
@@ -108,4 +111,8 @@ h1 {
 }
 .detail {
   font-size: 9pt;
+}
+.next {
+  font-size: 90%;
+  margin-bottom: var(--padding-l);
 }
