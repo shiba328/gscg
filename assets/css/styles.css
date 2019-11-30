@@ -58,11 +58,15 @@ img {
   text-align: center;
   font-size: 9pt;
 }
+.first > img {
+  width: 30pt;
+  height: auto;
+}
 .name {
   /* margin-bottom: var(--padding-s); */
 }
 .qr img {
-  width: 30pt;
+  /* width: 30pt; */
   height: auto;
 }
 .last {
